@@ -104,12 +104,12 @@ div.row{
   display: flex;
 }
 .col-6 {
-  width: 50vw;
-  margin: 0 30px 30px 0;
+  width: 60%;
+  margin: 0 30px 0 0;
 }
 
-.col-3 {
-  width: 30vw;
+.col-4 {
+  width: 35%;
   margin: 0 30px 30px 0;
 }
 div.block-scope{
@@ -128,4 +128,10 @@ img.title {
   width: 50%;
   padding-top: 30px;
   border-radius: 22% 22% 10% 10%;
+}
+
+@media screen and (max-width: 600px){
+  .col-4{
+    width: 100%;
+  }
 }
