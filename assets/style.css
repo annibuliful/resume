@@ -1,0 +1,15 @@
+*{
+  font-family: 'Inconsolata', monospace;
+}
+div.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.title{
+  display: flex;
+}
+p.name{
+  font-size: 30px;
+}
