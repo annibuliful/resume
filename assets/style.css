@@ -61,7 +61,10 @@ p.topic{
 p.title {
   font-size: 36px;
 }
-
+p.skill-title{
+  font-size: 20px;
+  padding-top: 10px;
+}
 p.subtitle {
   font-size: 20px;
 }
@@ -95,6 +98,7 @@ div.container {
   flex-wrap: wrap;
   border-radius: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 div.row{
   display: flex;
