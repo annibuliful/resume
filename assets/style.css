@@ -20,9 +20,28 @@ body{
 /**
 * progress bar
 */
-.pb-blue:progress-bar{
-  background: #34b2e8;
-  height: 30px;
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: auto;
+  height: 10px;
+  border-radius: 5px;
+  width: 40%;
+}
+.skill ::-webkit-progress-value {
+  width: 0px;
+  background: #00c3f7;
+  /* boder */
+}
+.skill ::-moz-progress-value {
+  width: 0px;
+  background: #00c3f7;
+}
+.skill::-webkit-progress-bar {
+  background: #e4e4e4;
+}
+.skill::-moz-progress-bar {
+  background: #e4e4e4;
 }
 /**
 * text & background color
@@ -44,9 +63,9 @@ body{
 * text weight
 */
 
-.text-bold{
+/* .text-bold{
   font-weight: bold;
-}
+} */
 /**
 * text
 */
@@ -100,6 +119,12 @@ div.container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
 div.row{
   display: flex;
 }
@@ -107,7 +132,10 @@ div.row{
   width: 60%;
   margin: 0 30px 0 0;
 }
-
+.col-12{
+  width: 90%;
+  margin-left: 5%;
+}
 .col-4 {
   width: 35%;
   margin: 0 30px 30px 0;
@@ -129,9 +157,52 @@ img.title {
   padding-top: 30px;
   border-radius: 22% 22% 10% 10%;
 }
+div.contact{
+  display: inline-block;
+  padding-left: 45%;
+}
 
-@media screen and (max-width: 600px){
+div.contact img{
+  position: relative;
+  width: 30px;
+  height: auto;
+}
+
+p.content img{
+  width: 30px;
+  height: auto;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #00c3f7, #8ad8ff);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #066079;
+}
+@media screen and (max-width: 768px){
   .col-4{
     width: 100%;
+  }
+  .col-6{
+    width: 90%;
+    padding-left: 5%;
   }
 }
