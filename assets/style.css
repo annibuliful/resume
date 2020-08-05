@@ -1,26 +1,27 @@
 * {
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
 }
-div{
+div {
   -webkit-margin-before: 10px;
   -webkit-margin-after: 0px;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-p{
+p {
   -webkit-margin-before: 10px;
   -webkit-margin-after: 0px;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-body{
+body {
   background: linear-gradient(to bottom right, #00c3f7, #8ad8ff);
 }
 
 /**
 * progress bar
 */
-progress, progress[role] {
+progress,
+progress[role] {
   -webkit-appearance: none;
   -moz-appearance: none;
   background-size: auto;
@@ -51,12 +52,12 @@ progress, progress[role] {
   color: #8e8b8b;
 }
 
-.bg-white{
+.bg-white {
   background-color: white;
 }
 
-.color-blue{
-  color: #72a9dd
+.color-blue {
+  color: #72a9dd;
 }
 
 /**
@@ -73,37 +74,39 @@ progress, progress[role] {
 .text-center {
   text-align: center;
 }
-p.topic{
+p.topic {
   font-size: 36px;
   padding-bottom: 20px;
 }
 p.title {
   font-size: 36px;
 }
-p.skill-title{
+p.skill-title {
   font-size: 20px;
   padding-top: 10px;
 }
 p.subtitle {
   font-size: 20px;
 }
-p.position-name{
+p.position-name {
   font-size: 16px;
   padding-bottom: 20px;
 }
-p.skill{
+p.skill {
   font-size: 18px;
-  padding-bottom: 20px;
 }
 
 p.content {
-  font-size: 17px;
+  font-size: 15px;
   padding-left: 15px;
+  color: #3a3a3a;
+  word-wrap: break-word;
+  width: 90%;
 }
-span.subcontent{
+span.subcontent {
   font-size: 16px;
 }
-u{
+u {
   text-decoration-color: #93e8ff;
 }
 /**
@@ -119,20 +122,20 @@ div.container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
-div.row{
+div.row {
   display: flex;
 }
 .col-6 {
   width: 60%;
   margin: 0 30px 0 0;
 }
-.col-12{
+.col-12 {
   width: 90%;
   margin-left: 5%;
 }
@@ -140,11 +143,11 @@ div.row{
   width: 35%;
   margin: 0 30px 30px 0;
 }
-div.block-scope{
+div.block-scope {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-div.sub-block-scope{
+div.sub-block-scope {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -157,18 +160,18 @@ img.title {
   padding-top: 30px;
   border-radius: 22% 22% 10% 10%;
 }
-div.contact{
+div.contact {
   display: inline-block;
   padding-left: 45%;
 }
 
-div.contact img{
+div.contact img {
   position: relative;
   width: 30px;
   height: auto;
 }
 
-p.content img{
+p.content img {
   width: 30px;
   height: auto;
   padding-right: 20px;
@@ -197,11 +200,11 @@ li a {
 li a:hover {
   background-color: #066079;
 }
-@media screen and (max-width: 768px){
-  .col-4{
+@media screen and (max-width: 768px) {
+  .col-4 {
     width: 100%;
   }
-  .col-6{
+  .col-6 {
     width: 90%;
     padding-left: 5%;
   }
