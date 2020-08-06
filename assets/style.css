@@ -94,6 +94,7 @@ p.position-name {
 }
 p.skill {
   font-size: 18px;
+  margin-left: 25%;
 }
 
 p.content {
@@ -200,9 +201,13 @@ li a {
 li a:hover {
   background-color: #066079;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
   .col-4 {
     width: 100%;
+  }
+  p.skill {
+    width: 40%;
+    margin-left: 40%;
   }
   .col-6 {
     width: 90%;
