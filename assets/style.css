@@ -88,6 +88,10 @@ p.skill-title {
 p.subtitle {
   font-size: 20px;
 }
+p.skill-title {
+  font-size: 18px;
+  text-align: center;
+}
 p.position-name {
   font-size: 16px;
   padding-bottom: 20px;
@@ -127,6 +131,11 @@ div.container {
   border-radius: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+div.skill-section {
+  margin-top: 20px;
+  margin-top: 40px;
 }
 a {
   text-decoration: none;
@@ -214,7 +223,6 @@ li a:hover {
     width: 100%;
   }
   p.skill {
-    width: 40%;
     margin-left: 40%;
   }
   .col-6 {
