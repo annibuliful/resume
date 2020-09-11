@@ -100,9 +100,14 @@ p.skill {
 p.content {
   font-size: 15px;
   padding-left: 15px;
-  color: #3a3a3a;
+  /* color: #3a3a3a; */
   word-wrap: break-word;
   width: 90%;
+}
+p.technology {
+  /* padding-left: 15px; */
+  margin-top: 0px;
+  color: #424242;
 }
 span.subcontent {
   font-size: 16px;
@@ -202,6 +207,9 @@ li a:hover {
   background-color: #066079;
 }
 @media screen and (max-width: 1025px) {
+  .sub-block-scope {
+    margin-top: 5rem;
+  }
   .col-4 {
     width: 100%;
   }
